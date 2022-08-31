@@ -1,0 +1,20 @@
+body
+{
+    background-color: rgb(255, 251, 191);
+}
+
+h1
+{
+    font-family: "Times New Roman", Times, serif;
+    text-align:center;
+    color:rgb(232, 14, 14)
+}
+
+table, th, td {
+    border:1px solid black;
+    
+  }
+
+  table{
+    width:100%
+  }
