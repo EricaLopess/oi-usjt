@@ -1,0 +1,44 @@
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #000;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+}
+
+li
+{
+
+    display: inline;
+    float: left;
+}
+
+li:last-child
+{
+    border-bottom: none;
+}
+
+li a
+{
+    
+    display: block;
+    color: #fff;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover
+{
+    background-color: #111;
+    color: #fff;
+}
+
+
+.ativo
+{
+    color: rgb(254, 233, 2);
+}
